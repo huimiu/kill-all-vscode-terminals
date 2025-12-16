@@ -1,0 +1,32 @@
+{
+  "name": "kill-all-terminals",
+  "displayName": "Kill All Terminals",
+  "description": "Adds a button to kill all terminal instances at once",
+  "version": "0.0.1",
+  "publisher": "huimiao",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "workbench.action.terminal.killAll",
+        "title": "Kill All Terminals",
+        "icon": "$(watch-expressions-remove-all)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "workbench.action.terminal.killAll",
+          "when": "view == terminal",
+          "group": "navigation@4"
+        }
+      ]
+    }
+  }
+}
