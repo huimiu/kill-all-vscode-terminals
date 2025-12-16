@@ -4,6 +4,10 @@
   "description": "Adds a button to kill all terminal instances at once",
   "version": "0.0.3",
   "publisher": "huimiao",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huimiu/kill-all-vscode-terminals"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
