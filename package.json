@@ -2,7 +2,7 @@
   "name": "kill-all-terminals",
   "displayName": "Kill All Terminals",
   "description": "Adds a button to kill all terminal instances at once",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "icon": "images/icon.png",
   "publisher": "huimiao",
   "repository": {
